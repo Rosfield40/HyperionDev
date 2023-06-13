@@ -79,7 +79,7 @@ def holiday_cost(hotel_cost, plane_cost, car_rental):
 print("Holiday Details:")
 print("City Flight:", city_flight)
 print("Number of Nights:", num_nights)
-print("Number of Rental Days: £", rental_days)
+print("Number of Rental Days: ", rental_days)
 print("Hotel Cost: £", hotel_cost(num_nights))
 print("Plane Cost: £", plane_cost(city_flight))
 print("Car Rental Cost: £", car_rental(rental_days))
