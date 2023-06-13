@@ -40,7 +40,7 @@ elif "bond" in calculation:
     
     interest_rate = interest_rate / 100
     
-    interest_rate = interest_rate / 12
+    interest_rate = interest_rate / 12 #changes yearly interest rate into monthly
     
     repayment = (interest_rate * house_value)/(1-(1+interest_rate)**(-repay_length)) #calc for total amount to be repaid
     repayment = "{:.2f}".format(repayment)
@@ -49,4 +49,4 @@ elif "bond" in calculation:
 else:
     print("Oops, something went wrong! You can only choose bond or investment")
     
-    #bond repayment does not seem right, copied math for the bond and seems unusually large. used math calculator for original formula with same result but wondering if typo if it is month or year? Sorry mentor sessions take a month to book in advance.
+  
